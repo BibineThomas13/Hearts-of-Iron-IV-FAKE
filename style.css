@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    background-color: #2c2c2c;
+    color: #eee;
+}
+
+h1 {
+    text-align: center;
+}
+
+#game-container {
+    display: flex;
+}
+
+#map {
+    width: 80%;
+    height: 80vh;
+    border: 1px solid #555;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr); /* 20x20 grid for the map */
+}
+
+.province {
+    border: 1px solid #555;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    width: 20%;
+    padding: 10px;
+    background-color: #3a3a3a;
+}
